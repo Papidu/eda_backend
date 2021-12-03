@@ -1,0 +1,1 @@
+web: gunicorn Eda_back.wsgi --log-file -
