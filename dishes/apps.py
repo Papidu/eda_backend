@@ -4,3 +4,4 @@ from django.apps import AppConfig
 class DishesConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'dishes'
+    verbose_name = "Заказы" # А здесь, имя которое необходимо отобразить в админке
